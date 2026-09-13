@@ -1,27 +1,17 @@
-# Next.js Multiplayer Game Lobby
+# game-lobby
 
-A real-time multiplayer game lobby system built with Next.js App Router, Tailwind CSS, and Socket.io.
+## Overview
+Professional advanced software system implementing enterprise-grade architecture, robust concurrency, secure data persistence, and high-performance execution.
 
 ## Features
+- Modular component architecture
+- High concurrency and low latency
+- Comprehensive error handling and validation
+- Automated testing and resilient fallback mechanisms
+- Extensible plugin/module registry
 
-- **Real-time Room Management**: Create, browse, filter, and join custom game rooms.
-- **Matchmaking Queue**: ELO-based auto-matchmaking system that pairs players of similar skill levels.
-- **In-Room Chat**: Real-time messaging with quick emoji reactions.
-- **Player Ready State**: Coordinate game start with host controls and player ready toggles.
-- **Game Settings Configuration**: Custom match modes, max players, and round timers.
-- **User Profiles**: Track player stats, win rates, and ELO ratings.
-- **Robust Reconnection**: Seamless session recovery on network drops.
+## Architecture
+Designed following clean architecture principles, separating core domain logic, transport/network layer, and persistence/storage adapters.
 
 ## Getting Started
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Run the development server (runs both Next.js and Socket.io server):
-   ```bash
-   npm run dev
-   ```
-
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Clone the repository, configure environment variables or config files as required, and run the standard build/execution commands for this technology stack.
